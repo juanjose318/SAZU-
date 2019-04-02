@@ -1,0 +1,28 @@
+body {
+    margin:0;
+    padding:0;
+    background-color: rgba(245, 245, 245, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+
+}
+
+h1 {
+    color: rgba(12, 212, 227, 1);
+    font-family: 'Raleway', sans-serif;
+    font-size: 2em;
+    margin: 1%;
+}
+
+span {
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+h2 {
+    font-size: 1.5em;
+    color: rgba(38, 38, 38, 1);
+    margin: 1%;
+}

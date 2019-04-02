@@ -1,0 +1,19 @@
+/* TEAM */
+Company: Sazu
+Website: http://www.sazu.be
+Email: Sazuteam@info.be
+Location: Mechelen, Belgium
+
+Data+Design+HTML+CSS+jQuery: Juan José Munoz 
+Twitter: @JuanVanLeuven
+Location: Schendelbeke, Belgium
+
+Data+Design+HTML+CSS: Janne Vanbesien
+Location: Ghent, Belgium
+
+
+/* SITE */
+Last update: Always up-to-date
+Standards: HTML5, CSS3
+Components: Modernizr, jQuery, Google Maps
+Software: PHPStorm, brackets.

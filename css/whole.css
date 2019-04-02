@@ -1,0 +1,372 @@
+
+/* <--------Introscherm-------------> */
+.wrapper {
+    display: block;
+    margin: 0;
+    padding: 0;
+    background: rgba(255, 255, 255, 1) url("images/desk.jpg") no-repeat top center fixed;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+
+}
+
+.logoInt {
+    max-width: 50%;
+    max-height: 50%;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.callto {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(38, 38, 38, 1);
+    padding: 10px 20px 10px 10px;
+    font-size: 2em;
+    position: relative;
+    top: 50%;
+    left: 40%;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.callto:hover {
+    background-color: rgba(52, 212, 227, 1);
+    transition-duration: 0.2s;
+
+}
+
+.callto:visited {
+    color: rgba(255, 255, 255, 1);
+}
+
+/* <-------Here ends IntroScherm-----> */
+
+
+/*  Container */
+
+.container {
+    width: 1140px;
+    margin: auto;
+    background-color: rgba(245, 245, 245, 1);
+    position: static;
+
+}
+
+
+
+/* Services */
+.services h1 {
+    position: relative;
+    top: 50px;
+}
+
+.grid-3 {
+
+    float: left;
+    margin: 0 1%;
+    padding: 15% 0;
+    width: 31.33%;
+
+}
+
+.grid-3 img {
+    width: 40%;
+    position: relative;
+    left: 20%;
+    margin: 5% 0;
+    border-radius: 20px;
+
+}
+
+.grid-3 p, .grid-3 h2 {
+
+    color: rgba(38, 38, 38, 1);
+    text-align: justify;
+
+}
+
+/* <-------Here ends Services------> */
+
+/*<----------- News ---------------> */
+.news {
+
+    background-color: rgba(245, 245, 245, 1);
+    padding: 3% 0;
+    border-radius: 5px;
+
+}
+
+.grid-4 {
+
+    box-sizing: border-box;
+    float: left;
+    margin: 3% 1%;
+    width: 23%;
+    height: 200px;
+
+}
+
+article a {
+    color: rgba(60, 60, 60, 1);
+    text-decoration: none;
+}
+
+article a:focus,
+article a:hover {
+    color: rgba(12, 212, 227, 1);
+    transition-duration: 0.5s;
+
+}
+
+article a:visited {
+    color: rgba(60, 60, 60, 1);
+}
+
+.post__title {
+    display: inline;
+    font-size: 1em;
+    float: left;
+    clear: both;
+}
+
+.post__pub-date {
+    color: #828585;
+    display: inline;
+    font-size: 0.8rem;
+    float: left;
+    clear: both;
+}
+
+article img {
+    width: 100%;
+    height: 150px;
+    clear: right;
+    border-radius: 5px;
+    opacity: 0.8;
+    z-index: 5;
+
+}
+
+article img:hover {
+
+    opacity: 1;
+}
+
+/* <-------Here ends News ---------> */
+
+/* Portfolio */
+.portfolio {
+
+    box-sizing: border-box;
+    background-color: rgba(245, 245, 245, 1);
+    clear: left;
+}
+
+.site {
+    clear: left;
+
+}
+
+.portfolio a {
+    color: rgba(38, 38, 38, 1);
+    text-decoration: none;
+}
+
+.portfolio a:visited {
+    color: rgba(38, 38, 38, 1);
+
+}
+
+.portfolio a:hover {
+
+    color: rgba(12, 212, 227, 1);
+    transition: 0.5s;
+
+}
+
+a img, .tekst {
+
+    width: 48%;
+    margin: 1%;
+}
+
+a img {
+
+    float: left;
+    width: 35%;
+    border-radius: 10px;
+
+    opacity: 0.8;
+
+}
+
+a img:hover {
+
+    width: 40%;
+    opacity: 1;
+    transition-duration: 0.2s;
+
+}
+
+.tekst {
+
+    float: right;
+    color: rgba(38, 38, 38, 1);
+
+}
+
+.tekst p {
+
+    font-size: 1em;
+    text-align: justify;
+
+}
+
+/* <-------Here ends Portfolio-------> */
+
+/* about us */
+.about {
+    padding: 3% 0;
+
+}
+
+.about p {
+
+    color: rgba(38, 38, 38, 1);
+    margin: 1%;
+
+}
+
+.left img {
+    border-radius: 5px;
+    width: 100%;
+
+}
+
+.right img {
+    border-radius: 5px;
+    width: 100%;
+
+}
+
+/* <-------Here ends about us-------> */
+
+/* Contact */
+
+.contact {
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgba(38, 38, 38, 1);
+
+}
+
+.contact p {
+    font-size: 1em;
+    text-align: inherit;
+
+}
+
+.right, .left {
+    width: 48%;
+    margin: 0 1%;
+
+}
+
+.right {
+    float: right;
+
+}
+
+.left {
+    float: left;
+
+}
+
+.info p, .info h2 {
+
+    display: block;
+    position: relative;
+    left: 5%;
+    font-size: 1.05em;
+
+}
+
+#googleMap {
+    width: 40%;
+    height: 215px;
+    position: relative;
+    left: 3.5%;
+    border-radius: 5px;
+
+}
+
+fieldset {
+
+    border: 1px solid rgba(38, 38, 38, 1);
+
+}
+
+label {
+    color: rgba(232, 175, 54, 1);
+
+}
+
+legend {
+    text-align: left;
+    padding: 1%;
+}
+
+textarea {
+    border-radius: 5px;
+
+}
+
+input[type="text"] {
+
+    border-radius: 5px;
+
+}
+
+input[type="submit"] {
+
+    color: rgba(245, 245, 245, 1);
+    background-color: rgba(38, 38, 38, 1);
+    margin:1%;
+    position: relative;
+    left:20%;
+    border-radius:5px;
+    padding:0 30px 0 30px;
+}
+
+input[type="submit"]:hover {
+
+    background-color: rgba(232, 175, 54, 1);
+
+}
+
+.field {
+    margin: 2px;
+
+}
+
+/* <-------Here ends Contact-------> */
+
+/* <------------ Footer-----------> */
+
+footer{
+    border:solid 1px rgba(38, 38, 38, 1);
+    margin:0;
+    padding:0;
+    background-color: rgba(38, 38, 38, 1);
+    color:rgba(245, 245, 245, 1) ;
+    font-size:0.5em;
+    text-align: center;
+
+}
+/* <---------Here ends footer-----> */

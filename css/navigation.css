@@ -1,0 +1,42 @@
+.NavGrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(38, 38, 38, 1);
+    width: 100%;
+    background-image: url("images/SAZUL4.png");
+    background-position: left;
+    background-size: 10%;
+    background-repeat: no-repeat;
+    z-index: 10;
+
+}
+
+.navigation ul {
+    position: relative;
+    right: 10%;
+    padding: 2px 10px;
+}
+
+.navigation ul li {
+    float: right;
+    font-family: 'Raleway', sans-serif;
+    list-style: none;
+    text-align: inherit;
+    padding: 0 6px 10px 6px;
+}
+
+.navigation ul li a {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-size: 1.5em;
+    padding-right: 15px;
+
+}
+
+.navigation ul li a:hover {
+    color: rgba(12, 212, 227, 1);
+    transition-duration: 0.5s;
+
+}
+
